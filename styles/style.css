@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&family=Rowdies&display=swap");
+
+/* -------------
+   Body Styles
+---------------- */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 0 150px;
+}
+
+/*  ---------------
+    Header Style
+------------------- */
+
+header {
+  margin-top: 90px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.header-element ul {
+  display: flex;
+  gap: 35px;
+}
+
+.header-element ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+.header-element ul li a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ------------------
+      Banner Styles
+   ------------------ */
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  /* flex-direction: column; */
+}
+
+.banner-container {
+  display: flex;
+  column-gap: 132px;
+}
+
+.banner-details {
+  margin-top: 35px;
+}
+
+.banner-title {
+  color: #3a3a3a;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.banner-description {
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.prebook {
+  background-color: #e02c6d;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 196px;
+  height: 44px;
+  padding: 10px 24px;
+  border-radius: 41px;
+  border: none;
+}
+
+.banner-image {
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px;
+  margin-top: 100px;
+  margin-left: 230px;
+}
+
+.banner-image img {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.section-container,
+.popular-collection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/* ----------------------
+   Sponsor Section Style
+------------------------- */
+
+.section-container {
+    margin-top: 100px;
+}
+
+.sponsor-item {
+  width: 1110px;
+  height: 110px;
+  text-align: center;
+  border-top: 2px solid #aaaa;
+  border-bottom: 2px solid #aaaa;
+}
+
+.sponsor-item ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-column-gap: 60px;
+  padding: 10px 15px 5px 15px;
+}
+
+.sponsor-item ul li {
+  list-style: none;
+}
+
+/* ------------
+   Item Style
+--------------- */
+
+.collection-title {
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.popular-collection-container {
+    width: 1110px;
+    margin-top: 100px;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.collection {
+    width: 330px;
+    border-radius: 5px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 25px;
+    background-color: #f0d2d2;
+}
+
+.collection-rating {
+    display: flex;
+    gap: 22px;
+}
+
+.filled {
+    color: #FB8200;
+}
+
+.empty {
+    color: #808080e5;
+}
+
+.more-details {
+    display: flex;
+    flex-direction: column;
+}
+
+/* -----------------------
+   Article Section style
+-------------------------- */
+
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
